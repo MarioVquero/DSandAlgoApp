@@ -1,3 +1,6 @@
+# this script is used to display everything not actually
+# perform the algorithm
+
 import pygame
 import sys
 
