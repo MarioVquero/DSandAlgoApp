@@ -15,6 +15,7 @@ class binarySearch():
 
     running = True
 
+    
 
     # when first opening the window ask the user
     # to set a range and their target number
