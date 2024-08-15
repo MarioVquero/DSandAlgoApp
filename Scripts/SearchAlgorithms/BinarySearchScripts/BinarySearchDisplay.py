@@ -3,6 +3,7 @@
 
 import pygame
 import sys
+from BinarySearch import binary_search
 
 class binarySearch():
 
@@ -28,6 +29,7 @@ class binarySearch():
     # else if its "checking" it will turn orange
     # and green if its the correct number
 
+    
 
 
     while running:

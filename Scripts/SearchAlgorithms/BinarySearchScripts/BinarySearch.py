@@ -1,6 +1,6 @@
 # binary search when given an range of 2 numbers and
 # and a target the algorithm is able to find the
-# target by selecting the median of the remaining numebrs
+# target by selecting the median of the remaining numbers
 # and eliminating anything higher or lower as an 
 # option for the target
 

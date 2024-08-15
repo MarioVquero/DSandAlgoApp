@@ -18,14 +18,14 @@ class main():
 
     # load images if necessary
     # can be used for UI
-    searchAlgo_Button_Image = pygame.image.load('').convert_alpha()
-    dynamicProg_Button_Image = pygame.image.load('').convert_alpha()
-    sortinAlgo_Button_Image = pygame.image.load('').convert_alpha()
+    searchAlgo_Button_Image = pygame.image.load('Assets/SearchAlgoImg.png').convert_alpha()
+    dynamicProg_Button_Image = pygame.image.load('Assets/PlaceHolderImg.png').convert_alpha()
+    sortinAlgo_Button_Image = pygame.image.load('Assets/SortingAlgoImg.png').convert_alpha()
 
     # create new button instances
-    searchAlgo_Button = Buttons.button(100,400, searchAlgo_Button_Image ,0.8)
-    dynamicProg_Button = Buttons.button(100,400, dynamicProg_Button_Image, 0.8)
-    sortinAlgo_Button = Buttons.button(100,400, sortinAlgo_Button_Image, 0.8)
+    searchAlgo_Button = Buttons.button(100,400, searchAlgo_Button_Image ,0.4)
+    dynamicProg_Button = Buttons.button(300,400, dynamicProg_Button_Image, 0.4)
+    sortinAlgo_Button = Buttons.button(500,400, sortinAlgo_Button_Image, 0.4    )
 
     # Start loop
     running = True
